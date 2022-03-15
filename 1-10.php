@@ -1,5 +1,5 @@
 <?php
-//********** 1. COUNT **********
+//********** 1. count **********
 $array = ['wolf', 'dog', 'cat', 'horse', 'frog'];
 $multi_array = ['wolf', 'dog', 'cat', 'horse', 'frog', ['wolf', 'sheep','rooster']];
 // echo count($array);
@@ -13,7 +13,12 @@ $multi_array = ['wolf', 'dog', 'cat', 'horse', 'frog', ['wolf', 'sheep','rooster
 // echo count($multi_array,COUNT_RECURSIVE);
 
 
-//********** 2. COUNT **********
+//********** 2. is_array **********
+
+if(is_array($array)){
+    echo "This is an array";
+}
+
 
 
 
