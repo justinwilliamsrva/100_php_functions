@@ -10,6 +10,7 @@ $num_array = [1.0, 1.5, 2.0, 2.5];
 $comma_string = 'walk,try,hurt';
 $column_string = 'walk|try|hurt';
 $space_string = 'walk try hurt';
+$vowels = ['a','e','o','u','i','A','E','I','O','U'];
 
 
 //******************************************
@@ -62,9 +63,35 @@ $space_string = 'walk try hurt';
 // print_r(explode("|",$column_string,2));
 // print_r(explode(" ",$space_string,-1));
 
+//******************************************
+//********** 6.str_replace **********
+//******************************************
 
+// echo str_replace('Animals','meeeeeeek',$sentence);
+// echo "\n";
+// echo str_replace($vowels,'',$sentence);
 
+//******************************************
+//********** 7.implode **********
+//******************************************
 
+// print_r($array);
+// echo implode(", ",$array);
 
+//******************************************
+//********** 8.strlen **********
+//******************************************
 
+// echo strlen($comma_string);
 
+//******************************************
+//********** 9.array_merge **********
+//******************************************
+
+// print_r(array_merge($array,$multi_array));
+
+//******************************************
+//********** 10.strpos **********
+//******************************************
+
+// echo strpos($sentence,'are');
